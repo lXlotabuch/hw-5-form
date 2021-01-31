@@ -1,0 +1,28 @@
+.form {
+    position: fixed;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 0 10px black;
+}
+
+.form-background::before{
+    content: "";
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: black;
+    opacity: .5;
+}
+
+.form-title{
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+.cards-place{
+    width: 100%;
+    background-color: rgb(187, 183, 183);
+    flex-grow: 1;
+}
+
+.cards-list{
+    padding: 0 30px 50px;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    row-gap: 15px;
+}
+
+.btn-place{
+    margin: 0 auto;
+    max-width: 1200px; 
+    padding: 15px 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buy-btn{
+    padding: 10px 25px;
+    color: #ffffff;
+    border: none;
+    background-color: darkslategrey;
+    transition: background-color .3s linear;
+    cursor: pointer;
+    
+    &:hover{
+        background-color:  rgb(37, 61, 61);
+    }
+}
+
+
+.no-item{
+    text-align: center;
+}

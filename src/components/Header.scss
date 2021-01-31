@@ -1,0 +1,26 @@
+.container{
+    background-color: rgb(150, 148, 148);
+}
+
+.header{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-link{
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+
+    &.active{
+        background-color: rgb(78, 78, 78);
+    }
+}

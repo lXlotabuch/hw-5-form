@@ -1,0 +1,87 @@
+.good{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba($color: #000000, $alpha: 0.6);
+}
+
+.good-change{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    width: 80%;
+}
+
+.add-btn{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1;
+    color:blue;
+}
+
+.remove-btn{
+    position: absolute;
+    padding: 5px 8px;
+    margin: 3px;
+    border-radius: 50%;
+    background-color: red;
+    color: #ffffff;
+    text-decoration: none;
+    top: 0;
+    right: 0;
+    font-size: 10px;
+}
+
+
+.good-img{
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+    
+    & img{
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.favorites-and-color-place{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 30px;
+}
+
+.favorite-btn{
+
+    &.active{
+        .svg > polygon{
+            fill: pink;
+        }
+    }
+}
+
+.good-color{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.good-article{
+    margin: 10px 0;
+}
+
+.good-price{
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 600;
+    color: rgb(57, 57, 247);
+}

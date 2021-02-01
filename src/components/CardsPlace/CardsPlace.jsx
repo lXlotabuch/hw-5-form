@@ -2,11 +2,11 @@ import PropTypes from "prop-types";
 import React, { useEffect, useState } from "react";
 import { connect } from "react-redux";
 import { useLocation } from "react-router-dom";
-import { getGoods, setShowForm } from "../state";
-import Card from "./Card";
+import Card from "../Card/Card";
 import "./CardsPlace.scss";
-import { SubmiteForm } from "./Form";
-import Modal from "./Modal";
+import { SubmiteForm } from "../Form/Form";
+import Modal from "../Modal/Modal";
+import { getGoods, setShowForm } from "../../state";
 
 const mapStateToProps = (state) => {
   return {

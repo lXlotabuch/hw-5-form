@@ -3,7 +3,7 @@ import { Formik, Field, Form, useField } from "formik";
 import React from "react";
 import { connect } from "react-redux";
 import * as Yup from "yup";
-import { setFormInfo, setHiddenForm } from "../state";
+import { setFormInfo, setHiddenForm } from "../../state";
 
 import "./Form.scss";
 

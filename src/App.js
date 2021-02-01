@@ -1,11 +1,11 @@
 import { React, useState, useEffect } from "react";
-import CardsPlace from "./components/CardsPlace";
-import Header from "./components/Header";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import "./App.css";
-import store from "./state";
+import "./App.scss";
+import store from "./store";
 import { Provider } from "react-redux";
-import { SubmiteForm } from "./components/Form.js";
+import CardsPlace from "./components/CardsPlace/CardsPlace";
+import Header from "./components/Header/Header";
+import { SubmiteForm } from "./components/Form/Form.jsx";
 
 function App() {
   return (

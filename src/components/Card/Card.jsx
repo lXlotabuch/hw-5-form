@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import "./Card.scss";
 import { connect } from "react-redux";
-import { setShowModal } from "../state";
+import { setShowModal } from "../../store";
 
 const mapStateToProps = (state) => {
   return {

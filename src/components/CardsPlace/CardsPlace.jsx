@@ -6,7 +6,7 @@ import Card from "../Card/Card";
 import "./CardsPlace.scss";
 import { SubmiteForm } from "../Form/Form";
 import Modal from "../Modal/Modal";
-import { getGoods, setShowForm } from "../../state";
+import { getGoods, setShowForm } from "../../store";
 
 const mapStateToProps = (state) => {
   return {

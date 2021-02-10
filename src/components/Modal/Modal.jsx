@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { useEffect } from "react";
 import { connect } from "react-redux";
-import { setHiddenModal } from "../../state";
+import { setHiddenModal } from "../../store";
 
 import "./Modal.scss";
 

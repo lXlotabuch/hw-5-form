@@ -3,7 +3,7 @@ import { Formik, Field, Form, useField } from "formik";
 import React from "react";
 import { connect } from "react-redux";
 import * as Yup from "yup";
-import { setFormInfo, setHiddenForm } from "../../state";
+import { setFormInfo, setHiddenForm } from "../../store";
 
 import "./Form.scss";
 
@@ -57,8 +57,8 @@ export const SubmiteForm = connect(mapStateToProps, {
 
           setFormInfo(values);
 
-          console.log(`Information: ${JSON.stringify(values)}`);
-          console.log(`Your Product: ${JSON.stringify(goodsInCart)}`);
+          console.log('Information:', values);
+          console.log('Your Product:', goodsInCart);
 
           Object.keys(localStorage).map(
             (key) => key.includes("toCart") && localStorage.removeItem(key),
